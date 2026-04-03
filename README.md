@@ -105,7 +105,9 @@ Aşağıdaki görselleri görüntüleyebilmek için lütfen ilgili resim dosyala
 
 
 ### 2- Frontend Terminali (Next.js Logları)
-![Frontend Logları](./assets/frontend-logs.png)
+<img width="707" height="336" alt="Ekran görüntüsü 2026-04-04 000124" src="https://github.com/user-attachments/assets/a568a833-dd9f-4793-ad78-389b5bc2c1ff" />
+
 
 ### 3- Frontend Arayüzü (Canlı Bildirim Paneli)
-![Frontend Arayüzü](./assets/frontend-ui.png)
+<img width="1409" height="704" alt="Ekran görüntüsü 2026-04-04 000256" src="https://github.com/user-attachments/assets/4ec4ad8f-b0bc-436c-9742-df16f956c85b" />
+
