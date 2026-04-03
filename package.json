@@ -1,0 +1,6 @@
+{
+  "name": "usdt-whale-tracker-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Root workspace package"
+}

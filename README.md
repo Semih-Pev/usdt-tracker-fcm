@@ -93,3 +93,18 @@ npm run dev
 2. Ekranda **Enable Alerts** (Bildirimleri Etkinleştir) butonuna basın ve tarayıcı uyarısı çıktığında **İzin Ver** (Allow) deyin.
 3. Bağlantı durumunun `Listening Live` olarak belirdiğini göreceksiniz; bu başarıyla token üretilip backend'e kaydedildiğini gösterir.
 4. Ethereum ağında canlı test etmek için Backend terminalinden USDT kontratının `Transfer` olaylarının aktığını gözlemleyebilirsiniz. Biri `100.000` üzeri değer içerdiğinde `FCM` bildirim onayı gidecek ve tarayıcı ekranına düşecektir.
+
+---
+
+## 📸 Ekran Görüntüleri
+
+Aşağıdaki görselleri görüntüleyebilmek için lütfen ilgili resim dosyalarını projenizin ana dizininde oluşturacağınız `assets` klasörü içerisine yerleştirin (örneğin: `assets/backend-logs.png`).
+
+### 1- Backend Terminali (Transfer Dinleyici Logları)
+![Backend Logları](./assets/backend-logs.png)
+
+### 2- Frontend Terminali (Next.js Logları)
+![Frontend Logları](./assets/frontend-logs.png)
+
+### 3- Frontend Arayüzü (Canlı Bildirim Paneli)
+![Frontend Arayüzü](./assets/frontend-ui.png)
