@@ -24,7 +24,7 @@ export class UsdtListenerService implements OnModuleInit {
   }
 
   startListening() {
-    // .env dosyasında yazan cloudflare veya http ayarını zorla eziyoruz, her zaman WSS kullanılacak
+    
     const rpcUrl = 'wss://ethereum-rpc.publicnode.com';
     this.logger.log(`Connecting to Ethereum RPC: ${rpcUrl}`);
     
@@ -39,7 +39,7 @@ export class UsdtListenerService implements OnModuleInit {
     this.logger.log(`Listening for Transfer events on USDT Contract: ${this.usdtAddress} ...`);
 
     usdtContract.on('Transfer', async (from: string, to: string, value: bigint, event: ethers.Log) => {
-      // 100,000 USDT = 100,000 * 10^6
+      
       const threshold = 100_000n * 10n ** 6n;
 
       if (value >= threshold) {
