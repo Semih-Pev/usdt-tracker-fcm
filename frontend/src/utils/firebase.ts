@@ -11,7 +11,7 @@ const firebaseConfig = {
   measurementId: "G-MPVTCLKHC8"
 };
 
-// Initialize Firebase
+
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
 
 const messagingPromise = (async () => {
