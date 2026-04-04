@@ -98,7 +98,7 @@ npm run dev
 
 ## 📸 Ekran Görüntüleri
 
-Aşağıdaki görselleri görüntüleyebilmek için lütfen ilgili resim dosyalarını projenizin ana dizininde oluşturacağınız `assets` klasörü içerisine yerleştirin (örneğin: `assets/backend-logs.png`).
+
 
 ### 1- Backend Terminali (Transfer Dinleyici Logları)
 <img width="1294" height="332" alt="Ekran görüntüsü 2026-04-04 000047" src="https://github.com/user-attachments/assets/bc386770-fea5-411c-b4ae-3327ba7253e8" />
